@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Istrate Dennis — Architecture Portfolio</title>
+<meta name="description" content="Portfolio website for architecture graduate Istrate Dennis: projects, profile, and contact." />
+<meta name="color-scheme" content="dark" />
+<link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <div class="logo" aria-hidden="true"></div>
+        <span>Istrate Dennis</span>
+      </div>
+      <nav aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-wrap">
+        <div>
+          <div class="kicker">Architecture Portfolio</div>
+          <h1>Istrate Dennis —<br> Emerging Architect</h1>
+          <p class="lead">interested in thoughtful design, reuse of existing buildings, and sustainable solutions. I like working through projects step by step, from idea to detail, with a focus on clarity and usability. I’m motivated by creating spaces that people can easily understand and enjoy.</p>
+          <div class="cta-row">
+            <a class="btn primary" href="#projects">Explore Projects ▸</a>
+            <a class="btn" href="#contact" aria-label="Jump to contact">Get in touch</a>
+            <a class="btn" href="assets/projects/CV-Istrate Dennis-Iustinian.pdf" download aria-label="Download CV (PDF)">Download CV</a>
+          </div>
+        </div>
+        <div class="portrait" role="img" aria-label="Portrait of Istrate Dennis">
+          <img src="assets/poza.png" alt="Istrate Dennis" style="width: 100%; height: 100%; object-fit: cover; object-position: center; transform: scale(1.05) translateY(8px); position: relative; z-index: 1;">
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="container">
+      <h2>About</h2>
+      <p class="sub">Short self-presentation and key details.</p>
+      <div class="about-grid reveal card">
+        <div>
+          <p><strong>As an Architecture graduate,</strong> I possess keen attention to detail, excellent teamwork capabilities, a logical mindset, all of which fuel my ambition to become a valuable asset for any team or project that I will be a part of. I am also capable of managing multiple deadlines simultaneously, even with them being of different nature.</p>
+          <p>I am currently seeking an opportunity to be part of a team of professionals in order to learn and develop. I seek to deepen my academic foundation through practical experience. My objective is to contribute to complex, multidisciplinary projects, learn from the expertise of the industry professionals, and apply my proficiency in specialized software and design process management, with the ultimate goal of refining my skills and advancing as a knowledgeable and innovative architect.</p>
+          <div class="info-card">
+            <dl class="info-list">
+              <div class="info-item">
+                <dt>Full name</dt>
+                <dd>Istrate Dennis</dd>
+              </div>
+              <div class="info-item">
+                <dt>Location</dt>
+                <dd>Iasi, Romania</dd>
+              </div>
+              <div class="info-item">
+                <dt>Phone</dt>
+                <dd><a href="tel:+40755399850">+40 755 399 850</a></dd>
+              </div>
+              <div class="info-item">
+                <dt>Email</dt>
+                <dd><a href="mailto:istrate_dennis@yahoo.com">istrate_dennis@yahoo.com</a></dd>
+              </div>
+            </dl>
+          </div>
+          <div class="chips" aria-label="Skills" style="display: flex; flex-wrap: wrap; justify-content: space-between; width: 100%;">
+            <span class="chip" style="flex: 1 1 auto; text-align: center; margin: 4px;">Archicad</span>
+            <span class="chip" style="flex: 1 1 auto; text-align: center; margin: 4px;">Lumion</span>
+            <span class="chip" style="flex: 1 1 auto; text-align: center; margin: 4px;">Photoshop</span>
+            <span class="chip" style="flex: 1 1 auto; text-align: center; margin: 4px;">Procreate</span>
+            <span class="chip" style="flex: 1 1 auto; text-align: center; margin: 4px;">SketchUp</span>
+            <span class="chip" style="flex: 1 1 auto; text-align: center; margin: 4px;">AutoCAD</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="container">
+      <h2>Projects</h2>
+      <p class="sub">A selection of academic and competition work. Open cards for details.</p>
+
+      <div class="grid" id="projectGrid" aria-live="polite">
+        <!-- Projects will be loaded dynamically from JSON -->
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="container">
+      <h2>Contact</h2>
+      <p class="sub">For collaboration, internships, or portfolio requests.</p>
+      <div class="contact-card card reveal">
+        <!-- Using FormSubmit to send emails from a static site -->
+        <form action="https://formsubmit.co/istrate_dennis@yahoo.com" method="POST">
+          <!-- FormSubmit configuration (optional) -->
+          <input type="hidden" name="_subject" value="New message from your portfolio!">
+          <input type="hidden" name="_template" value="box">
+          
+          <input type="text" name="name" placeholder="Your name" required aria-label="Your name" />
+          <input type="email" name="email" placeholder="Your email" required aria-label="Your email" />
+          <textarea name="message" placeholder="Your message" required aria-label="Your message"></textarea>
+          <button class="btn primary" type="submit">Send message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container">
+    <div>© <span id="year"></span> Istrate Dennis. All rights reserved.</div>
+  </footer>
+
+  <script src="assets/data/projects.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
