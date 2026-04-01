@@ -1,0 +1,107 @@
+const projectsData = [
+  {
+    "title": "Final Degree Project - Community Center with Urban Agriculture",
+    "subtitle": "The Cigarette Factory, Iași",
+    "description": "This project proposes the conversion of a former industrial site into a community center centered around urban agriculture. The design integrates productive, educational, and social functions, transforming the existing structures into an active and accessible environment. By combining sustainable technologies with adaptive reuse, the project contributes to urban regeneration and strengthens the relationship between community, architecture, and nature.",
+    "pdfFile": "FinalDegreeProject.pdf",
+    "image": "FinalDegreeThumbnail.png"
+  },
+  {
+    "title": "Passive House",
+    "subtitle": "C.A.Rosetti, Iași",
+    "description": "This project explores the integration of sustainability principles in architecture through the use of ecological materials and passive energy-efficiency strategies. It aims to reduce environmental impact while creating a balanced relationship between the built environment and nature. The intervention results in healthy, efficient spaces adapted to contemporary needs.",
+    "pdfFile": "EcologicalArchitecture.pdf",
+    "image": "EcologicalArchitectureThumbnail.jpg"
+  },  
+  {
+    "title": "Performance Spaces OAR Design Contest",
+    "subtitle": "CUB Square - Ștefan cel Mare și Sfânt Boulevard",
+    "description": "This project focuses on the design of temporary structures for artistic events in public space. It encourages interaction between people and cultural expression through flexible architectural installations. The resulting spaces act as catalysts for urban activation and artistic experimentation.",
+    "pdfFile": "PerformanceSpaces.pdf",
+    "image": "PerformanceSpacesThumbnail.jpg"
+  },  
+  {
+    "title": "Freelance/Individual Projects",
+    "subtitle": "Hlincea/Miroslava, Iași",
+    "description": "This project brings together visualizations and façade studies from two residential interventions, each addressing a different scope of work. One focuses on the renovation of the exterior envelope, while the other develops both exterior and interior design within an already defined layout. Through material contrast, clear volumetry, and carefully composed façades, the project explores a cohesive architectural language complemented by warm textures and refined interior detailing.",
+    "pdfFile": "FreelanceProjects.pdf",
+    "image": "FreelanceProjectsThumbnail.jpg"
+  },  
+  {
+    "title": "NZEB House",
+    "subtitle": "Lascar Catargi Street, Iași",
+    "description": "This house is designed according to NZEB standards, with a strong focus on energy efficiency and reduced resource consumption. The design integrates passive strategies, optimal orientation, and sustainable technologies. The result is a high-performance, comfortable living environment prepared for future demands.",
+    "pdfFile": "NZEBHouse.pdf",
+    "image": "NZEBHouseThumbnail.jpg"
+  },  
+  {
+    "title": "Mini Garden",
+    "subtitle": "Păcurari Street, Iași",
+    "description": "This project proposes the design of a small-scale green space integrated within the urban fabric. It creates an accessible environment dedicated to relaxation and reconnection with nature. The space acts as a moment of relief within a dense urban context.",
+    "pdfFile": "MiniGarden.pdf",
+    "image": "MiniGardenThumbnail.jpg"
+  },  
+  {
+    "title": "Berthelot Park",
+    "subtitle": "Păcurari Street, Iași",
+    "description": "This project reinterprets an existing urban space by reorganizing pedestrian routes and introducing seating areas integrated into the landscape, creating an accessible and functionally fluid park. The composition is based on the alternation between mineral surfaces and vegetated areas, using platforms, steps, and urban furniture to generate spaces for gathering and relaxation. The intervention enhances existing vegetation while introducing new elements that encourage everyday use and strengthen the community character of the area.",
+    "pdfFile": "BerthelotPark.pdf",
+    "image": "BerthelotParkThumbnail.jpg"
+  },  
+  {
+    "title": "Residential Complex",
+    "subtitle": "Păcurari - Moara de Foc Street, Iași",
+    "description": "This residential complex is organized through a clear composition of volumes and shared spaces. The design emphasizes the relationship between private and communal areas. The result is a balanced and coherent living environment.",
+    "pdfFile": "ResidentialComplex.pdf",
+    "image": "ResidentialComplexThumbnail.jpg"
+  },  
+  {
+    "title": "School Gymnasium",
+    "subtitle": "Ștefan Bârsănescu School, Iași",
+    "description": "This project develops a space dedicated to sports activities and physical education. The functional layout ensures accessibility and efficient use for a variety of activities. The building supports both community engagement and physical development.",
+    "pdfFile": "SchoolGymnasium.pdf",
+    "image": "SchoolGymnasiumThumbnail.jpg"
+  },  
+  {
+    "title": "Multifunctional Complex - Business Center",
+    "subtitle": "Iorga - Țuțora Boulevard, Iași",
+    "description": "This development is conceived as a multifunctional environment that integrates economic and social activities. The volumetric and functional organization allows for flexibility and adaptability. It contributes to the activation and revitalization of the surrounding urban area.",
+    "pdfFile": "MultifunctionalComplexBusinessCenter.pdf",
+    "image": "MultifunctionalComplexBusinessCenterThumbnail.jpg"
+  },  
+  {
+    "title": "Urban Hotel",
+    "subtitle": "George Matei Cantacuzino - Iordachi Lozonschi Street, Iași",
+    "description": "This project proposes an urban accommodation facility that integrates complementary functions. The spatial organization prioritizes efficiency and user comfort. The design balances privacy with openness towards the city.",
+    "pdfFile": "UrbanHotel.pdf",
+    "image": "UrbanHotelThumbnail.jpg"
+  },  
+  {
+    "title": "Music Center",
+    "subtitle": "Palat - Sf.Lazăr Street, Iași",
+    "description": "This building is designed as a space for artistic and cultural expression. The interior layout supports a wide range of activities, from performances to public events. It aims to become an accessible and dynamic cultural landmark.",
+    "pdfFile": "MusicCenter.pdf",
+    "image": "MusicCenterThumbnail.jpg"
+  },  
+  {
+    "title": "Technical Detailed Design",
+    "subtitle": "Compilation of Technical Drawings",
+    "description": "These drawings present construction details and technical solutions developed within the Technical Design discipline. They highlight the resolution of layers, joints, and dimensions throughout the design process. The work reflects strong technical understanding and attention to detail.",
+    "pdfFile": "TechnicalDetailedDesign.pdf",
+    "image": "TechnicalDetailedDesignThumbnail.jpg"
+  },  
+  {
+    "title": "Architectural Rehabilitation",
+    "subtitle": "Lisbon - Portugal",
+    "description": "This project focuses on the rehabilitation of an existing ensemble through the integration of a new volume within the urban context. It enhances the existing built fabric while adapting it to current requirements. The result is a balanced approach between preservation and transformation.",
+    "pdfFile": "ArchitecturalRehabilitationLisbon.pdf",
+    "image": "ArchitecturalRehabilitationLisbonThumbnail.jpg"
+  },  
+  {
+    "title": "Architectural Restoration",
+    "subtitle": "Cantacuzino-Pașcanu Mansion, Ceplenița",
+    "description": "This project enhances the ruins of the Cantacuzino-Pașcanu manor through a minimally invasive intervention focused on preservation. A system of independent metal walkways and platforms allows visitors to explore the site at multiple levels. The design complements the existing structure with lightweight additions adapted for cultural and recreational use, without altering its integrity.",
+    "pdfFile": "ArchitecturalRestoration.pdf",
+    "image": "ArchitecturalRestorationThumbnail.jpg"
+  }
+];
